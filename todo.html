@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="one.css">
+    <script src="try.js"></script>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="title">
+            todo list
+        </div>
+        <div>
+            <ul id="itemlist" style="position:absolute;top:400px;left:570px;"></ul>
+        </div>
+        <div>
+            <input type="text" value="" id="input" placeholder="Enter Task" onkeypress="tryfun(event)">
+            <input type="button" value="submit" id ="but" style="position:relative;left:1200px;top:400px;opacity:0" >
+        </div>    
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.title{
+    width: 32vw;
+    height: 20vh;
+    color: brown;
+    font-size: 140px;
+    font-weight: bold;
+    position: absolute;
+    left:60vw;
+    top:5vh;
+    border: 6px dashed salmon;
+    background-color: white;
+}
+#input{
+    position: absolute;
+    left:40vw;
+    top:40vh;
+    height: 6vh;
+    font-size: 30px;
+}
+#itemlist{
+    height: 6vh;
+    font-size: 30px;
+}
